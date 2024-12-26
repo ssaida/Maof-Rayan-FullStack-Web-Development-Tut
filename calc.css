@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+button{
+  padding: 8px 20px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.calc{
+  width: 400px;
+  margin: 100px auto;
+}
+input.result{
+  display: block;
+  
+}

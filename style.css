@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 40px;
+  background-color: blueviolet;
+  color: #fff;
+}
+header a{
+  text-decoration: none;
+  color: #fff;
+  margin-right: 8px;
+  font-size: 16px;
+}
+main{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  border: 3px dotted #000;
+  padding: 8px;
+}
+main .data{
+  margin: 10px;
+  line-height: 1.5;
+}
+main p{
+  margin: 4px 0;
+}
+button{
+  background-color: #333;
+  color: #fff;
+  padding: 8px 20px;
+}
